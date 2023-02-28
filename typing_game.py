@@ -28,5 +28,12 @@ print("-"*30,"\n")
 
 
 #### 💻 YOUR CODE GOES HERE 💻 ####
+# translate this pseudocode into Python code:
 
-
+        # store one prompt from prompt_list in chosen_prompt
+        # print chosen_prompt
+        # store current time in start_time
+        # store user typing attempt in user_typed_prompt 
+        # store current time in end_time 
+        # store the return value of calculated_wpm() in user_wpm
+        # print user_wpm
