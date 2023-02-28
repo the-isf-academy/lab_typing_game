@@ -30,20 +30,3 @@ print("-"*30,"\n")
 #### 💻 YOUR CODE GOES HERE 💻 ####
 
 
-chosen_prompt = choice(prompt_list)        # store a single prompt
-chosen_prompt = generate_prompt()
-print(chosen_prompt)                       # print prompt
-
-start_time = time()                 # start timer
-
-user_typed_prompt = input(">>> ")     # get user input
-
-end_time = time()                   # end timer
-
-user_wpm = calculate_wpm(user_typed_prompt, start_time, end_time) #calculate wpm
-user_accuracy = calculate_accuracy(chosen_prompt, user_typed_prompt)
-
-print("-"*30,'\n')
-
-print("WPM: {}".format(user_wpm))            # print statistics for user
-print("Accuracy: {}%".format(user_accuracy))
