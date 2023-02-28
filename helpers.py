@@ -26,8 +26,8 @@ def calculate_wpm(user_typed_prompt, start_time, end_time):
 
 
 def calculate_accuracy(chosen_prompt, user_typed_prompt):
-    # returns the accuracy of the user's input in a percentage
-
+    # returns the accuracy of the user's input in a decimal
+    
     total_characters = len(user_typed_prompt)
     correct_characters = 0
     
@@ -35,7 +35,7 @@ def calculate_accuracy(chosen_prompt, user_typed_prompt):
         if chosen_prompt[i] == user_typed_prompt[i]:
             correct_characters += 1
 
-    accuracy = (correct_characters/total_characters)*100
+    accuracy = correct_characters/total_characters
 
     return round(accuracy,1)
 

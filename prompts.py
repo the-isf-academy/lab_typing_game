@@ -14,7 +14,7 @@ prompt_list = [
 # words from https://github.com/dariusk/corpora/blob/master/data/words/common.json
 
 
-common_words = [
+common_word_list = [
       "a",
       "able",
       "about",

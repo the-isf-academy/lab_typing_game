@@ -31,7 +31,7 @@ print("-"*30,"\n")
 
 
 chosen_prompt = choice(prompt_list)        # store a single prompt
-chosen_prompt = generate_prompt()
+#chosen_prompt = generate_prompt()
 print(chosen_prompt)                       # print prompt
 
 start_time = time()                 # start timer
