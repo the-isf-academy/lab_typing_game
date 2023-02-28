@@ -4,7 +4,8 @@ from random import choice, randint
 from prompts import common_words
 
 def print_slow(message,seconds):
-    # prints one character at time with `seconds` in between
+    # prints one character at time from `message`
+    # pauses for `seconds` in between each character
 
     for letter in message:
         sys.stdout.write(letter)
@@ -27,13 +28,18 @@ def calculate_wpm(user_typed_prompt, start_time, end_time):
 
 
 def calculate_accuracy(chosen_prompt, user_typed_prompt):
-    # returns the accuracy of the user's input in a percentage
+    # returns the accuracy of the user's input as a decimal
+    # be sure to round the quotient to 1 decimal point
 
     #### 💻 YOUR CODE GOES HERE 💻 ####
 
 
 
     return accuracy 
+
+
+
+
 
 
 ###### EXTENSION #######

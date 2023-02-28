@@ -10,7 +10,28 @@ prompt_list = [
 
 
 
-###### EXTENSION #######
+
+
+
+
+
+###### EXTENSION: Difficulty Levels  #######
+
+prompt_dictionary = {
+    'easy': [
+    
+    ],
+    'medium':[
+    
+    ],
+    'hard':[
+    
+    ]
+}
+
+
+
+###### EXTENSION: Generate Random Prompts #######
 # words from https://github.com/dariusk/corpora/blob/master/data/words/common.json
 
 
