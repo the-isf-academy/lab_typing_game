@@ -1,7 +1,7 @@
 import sys
 import time
 from random import choice, randint
-from prompts import common_words
+from prompts import common_word_list
 
 def print_slow(str,seconds):
     # prints one character at time with `seconds` in between
@@ -36,7 +36,6 @@ def calculate_accuracy(chosen_prompt, user_typed_prompt):
             correct_characters += 1
 
     accuracy = correct_characters/total_characters
-
     return round(accuracy,1)
 
 

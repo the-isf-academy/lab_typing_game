@@ -46,4 +46,4 @@ user_accuracy = calculate_accuracy(chosen_prompt, user_typed_prompt)
 print("-"*30,'\n')
 
 print("WPM: {}".format(user_wpm))            # print statistics for user
-print("Accuracy: {}%".format(user_accuracy))
+print("Accuracy: {}%".format(user_accuracy*100))
