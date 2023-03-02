@@ -1,4 +1,4 @@
-from prompts import prompt_list
+from prompts import prompt_list                                 # imports prompt list from prompts.py 
 from random import choice
 from helpers import print_slow, calculate_wpm, calculate_accuracy, generate_prompt
 from time import time
@@ -25,10 +25,10 @@ print("-"*30,"\n")
 #### 💻 YOUR CODE GOES HERE 💻 ####
 #### translate this pseudocode into Python code, feel to change it to make the most sense to you:
 
-# initialize the variable chosen_prompt store a random prompt from  prompt_list 
+# initialize the variable chosen_prompt and store a random prompt from  prompt_list 
 # print chosen_prompt
-# initialize the variable start_time store the current time 
-# initialize the variable user_input_prompt store user input prompt typing attempt 
-# initialize the variable end_time store the current time 
-# initialize the variable user_wpm store the return value of calculated_wpm() 
+# initialize the variable start_time and store the current time 
+# initialize the variable user_input_prompt and store user input prompt typing attempt 
+# initialize the variable end_time and store the current time 
+# initialize the variable user_wpm and store the return value of calculated_wpm() 
 # print user_wpm
