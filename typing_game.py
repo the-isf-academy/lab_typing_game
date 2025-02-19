@@ -7,13 +7,10 @@ print("-"*50)
 print("Welcome to the ISF Typing Game")                         # print welcome to the game
 print("-"*50)
 
-input("> Input any key to view the rules.")                     # user input any key to view rules                          
-
 print("     1. You will see the prompt")                        # print rules
 print("     2. The timer will start")
 print("     3. Type the prompt as fast as you can")
 print("     4. Click 'enter/return' when you are done.\n")
-
 input("> Input any key to start the game! ")                    # user input any key to start game
 
 print("-"*30)

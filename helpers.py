@@ -34,9 +34,7 @@ def calculate_accuracy(chosen_prompt, user_typed_prompt):
     #### 💻 YOUR CODE GOES HERE 💻 ####
 
 
-
-    return accuracy 
-
+    return 
 
 
 

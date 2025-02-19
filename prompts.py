@@ -10,11 +10,6 @@ prompt_list = [
 
 
 
-
-
-
-
-
 ###### EXTENSION: Difficulty Levels  #######
 
 prompt_dictionary = {
