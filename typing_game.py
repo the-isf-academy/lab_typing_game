@@ -11,16 +11,18 @@ print("     1. You will see the prompt")                        # print rules
 print("     2. The timer will start")
 print("     3. Type the prompt as fast as you can")
 print("     4. Click 'enter/return' when you are done.\n")
-input("> Input any key to start the game! ")                    # user input any key to start game
+input("> Press `enter/return` to start the game! ")                    # user input any key to start game
 
 print("-"*30)
 print("The game will start in...")
-print_slow("3...2...1!", .2)
+print_slow("3...2...1!", .1)
 print("-"*30,"\n")
 
 
 #### 💻 YOUR CODE GOES HERE 💻 ####
-#### translate this pseudocode into Python code, feel to change it to make the most sense to you:
+## translate this pseudocode into Python code
+## feel to change it to make the most sense to you
+##   (you may delete it for an extra challenege)
 
 # initialize the variable chosen_prompt and store a random prompt from  prompt_list 
 # print chosen_prompt

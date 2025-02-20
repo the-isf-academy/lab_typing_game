@@ -30,6 +30,11 @@ def calculate_wpm(user_typed_prompt, start_time, end_time):
 def calculate_accuracy(chosen_prompt, user_typed_prompt):
     # returns the accuracy of the user's input as a decimal
     # be sure to round the quotient to 1 decimal point
+    #
+    # 🤔 it's up to you to define accuracy 
+    #       - is it how similar each letter is?
+    #       - is it how similar each word is?
+    #       - is it case sensitive? puncutation sensitive? 
 
     #### 💻 YOUR CODE GOES HERE 💻 ####
 
